@@ -1,0 +1,24 @@
+{
+    "name": "Go Tieng Viet",
+    "description": "Chuong Trinh Go Tieng Viet",
+    "version": "1.0",
+    "icons": { 
+        "16": "/assets/img/icon16.png",
+        "48": "/assets/img/icon48.png",
+       "128": "/assets/img/icon128.png" },
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "/assets/img/icon32.png"
+    },
+    "commands": {
+        "_execute_browser_action": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+F",
+                "mac": "MacCtrl+Shift+F"
+            },
+            "description": "Open popup.html"
+        }
+    },
+    "homepage_url": "https://nooblify.com/"
+}
