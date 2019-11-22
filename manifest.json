@@ -1,6 +1,6 @@
 {
-    "name": "Go Tieng Viet",
-    "description": "Chuong Trinh Go Tieng Viet",
+    "name": "VKey - Go Tieng Viet",
+    "description": "Vietnamese Typing Input",
     "version": "1.0",
     "icons": { 
         "16": "/assets/img/icon16.png",
@@ -10,6 +10,10 @@
     "browser_action": {
         "default_popup": "popup.html",
         "default_icon": "/assets/img/icon32.png"
+    },
+    "background": {
+        "scripts": ["/scripts/background.js"],
+        "persistent": false
     },
     "commands": {
         "_execute_browser_action": {
